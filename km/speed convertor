@@ -1,0 +1,6 @@
+def kilometre_1(km):  
+    conversion_ratio_1= 0.621371  
+    miles_1 = km * conversion_ratio_1  
+    print ("The speed in mph is: ", miles_1)  
+km = float (input ("Please enter the speed of car in Kilometres per hours: "))  
+kilometre_1(km)  
